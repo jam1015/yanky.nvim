@@ -354,11 +354,11 @@ require("yanky").setup({
 })
 ```
 
-You can override the `YankyPut` and yanky `YankyYanked` highlight groups to change colors. For example to use the `visual` highlight group:
+You can override the `YankyPut` and yanky `YankyYanked` highlight groups to change colors. For example to use the `Visual` highlight group:
 
 ```
-vim.api.nvim_set_hl(0, "YankyPut", { link = "visual" })
-vim.api.nvim_set_hl(0, "YankyYanked", { link = "visual" })
+vim.api.nvim_set_hl(0, "YankyPut", { link = "Visual" })
+vim.api.nvim_set_hl(0, "YankyYanked", { link = "Visual" })
 ```
 
 #### `highlight.on_put`
@@ -419,11 +419,11 @@ has been defined.
 | Highlight color for yanked text | YankyYanked | link to Search |
 
 
-You can override the `YankyPut` and yanky `YankyYanked` highlight groups to change colors. For example to use the `visual` highlight group:
+You can override the `YankyPut` and yanky `YankyYanked` highlight groups to change colors. For example to use the `Visual` highlight group:
 
 ```
-vim.api.nvim_set_hl(0, "YankyPut", { link = "visual" })
-vim.api.nvim_set_hl(0, "YankyYanked", { link = "visual" })
+vim.api.nvim_set_hl(0, "YankyPut", { link = "Visual" })
+vim.api.nvim_set_hl(0, "YankyYanked", { link = "Visual" })
 ```
 
 ## 🤝 Integrations
